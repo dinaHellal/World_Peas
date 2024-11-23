@@ -48,3 +48,22 @@ ul {
   background-color: var(--green);
   border-radius: 8px;
 }
+.green-paper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 17px;
+}
+.green-paper .vegetables {
+  margin-left: 40px;
+}
+.green-paper .vegetable-img {
+  width: 720px;
+  height: 480px;
+}
+.green-paper .vegetable-img figcaption {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: -1%;
+}
