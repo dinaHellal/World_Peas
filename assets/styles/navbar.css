@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg: #fafaf5;
+  --white: white;
+  --green: #426b1f;
+  --black: black;
+  --gray: #6d6d6d;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1160px;
+  }
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  padding: 17px;
+  background-color: var(white);
+  position: sticky;
+  top: 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo a {
+  font-family: "Newsreader", serif;
+  color: var(--green);
+  font-size: 32px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li a {
+  padding: 10px;
+  line-height: 130%;
+  font-size: 16px;
+  font-family: "Inter";
+  color: var(--black);
+
+}
+header nav ul li .main-btn {
+  color: var(--white);
+  background-color: var(--green);
+  border-radius: 8px;
+}
