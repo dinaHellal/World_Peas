@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg: #fafaf5;
+  --white: white;
+  --green: #426b1f;
+  --black: black;
+  --gray: #6d6d6d;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+
+}
+.Produce{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  gap: 30px;
+  position: relative;
+  min-width: 990px;
+}
+.Produce .container{
+  display: flex;
+    justify-content:space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  gap: 30px;
+}
+.Produce h1{
+  font-family: Newsreader;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 76.8px;
+  letter-spacing: -2%;
+}
+.Produce span{
+position: absolute;
+right: 790px;
+bottom: 20px;
+font-family: Inter;
+font-weight: 300;
+font-size: 20px;
+line-height: 26px;
+}
+.Produce ul li .main-btn {
+  color: var(--white);
+  background-color: var(--green);
+  border-radius: 20px;
+}
+.Produce ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.Produce ul li a {
+  padding: 14px;
+  margin: 4px;
+  border: 1px solid var(--gray);
+  border-radius: 20px;
+  line-height: 130%;
+  font-size: 16px;
+  font-family: "Inter";
+  color: var(--black);
+
+}
+.card {
+  margin-top: 30px;
+  display: inline-flex;
+  width: 395px;
+  border: 1px solid #E6E6E6;
+  border-radius: 24px; 
+  overflow: hidden; 
+  background-color: var(--white); 
+}
+.cards .container {
+  width: fit-content;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card .card-image {
+  border-radius: 24px;
+  width: 395px; 
+  height: 296px;
+  object-fit: cover;
+  display: block; 
+}
+
+
+
+.card-content h3 {
+  font-size: 18px; 
+  margin-bottom: 10px;
+  font-family: 'Inter'; 
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+.card-content span{
+  color: var(--green);
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.card-content p {
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Inter';
+color: var(--gray);
+  margin-bottom: 15px; 
+}
+
+
